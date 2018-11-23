@@ -27,4 +27,12 @@ public class Pair extends  Object{
     public boolean equals(Object obj) {
         return this.getX() == ((Pair) obj).getX() && this.getY() == ((Pair) obj).getY();
     }
+
+    @Override
+    public String toString() {
+        return "Pair{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }
